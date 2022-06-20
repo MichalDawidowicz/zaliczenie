@@ -1,0 +1,27 @@
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+#home img
+{
+    max-width: 66%;
+}
+@media (min-width: 768px) {
+
+    #home
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    #home img
+    {
+        max-width: 33%;
+    }
+}
